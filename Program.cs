@@ -6,11 +6,11 @@
 
         static int Multiply(int x, int y) => x * y;
 
-        static int Subtract(int x, int y) => x - y;
+        static int Divide(int x, int y) => x/y
 
         static void Main(string[] args)
         {
-            Console.WriteLine($"La resta es: {Subtract(2, 1)}");
+            Console.WriteLine($"La division es: {Divide(2, 1)}");
         }
     }
 }
