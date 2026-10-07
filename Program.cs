@@ -6,9 +6,11 @@
 
         static int Multiply(int x, int y) => x * y;
 
+        static int Subtract(int x, int y) => x - y;
+
         static void Main(string[] args)
         {
-            Console.WriteLine($"La suma es: {Multiply(2, 1)}");
+            Console.WriteLine($"La resta es: {Subtract(2, 1)}");
         }
     }
 }
