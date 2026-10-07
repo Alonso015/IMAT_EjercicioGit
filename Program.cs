@@ -2,9 +2,11 @@
 {
     internal class Program
     {
+        static int Add(int x, int y) => x + y;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine($"La suma es: {Add(1, 7)}");
         }
     }
 }
