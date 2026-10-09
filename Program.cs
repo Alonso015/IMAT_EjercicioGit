@@ -6,7 +6,17 @@
 
         static int Multiply(int x, int y) => x * y;
 
-        static int Divide(int x, int y) => x/y
+        static int Divide(int x, int y)
+        {
+            if (y == 0)
+            {
+                print($"No se puede dividir por 0, el dividiendo es {x} y el divisor es {y}")
+            }
+            else
+            {
+                x / y
+            }
+        }
 
         static void Main(string[] args)
         {
