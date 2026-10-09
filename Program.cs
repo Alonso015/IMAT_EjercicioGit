@@ -9,7 +9,7 @@
         static int Divide(int x, int y)
         {
             if (y==0)
-                Console.WriteLine("Se esta dividiendo por 0")
+                Console.WriteLine($"esta dividiendo por 0, {x} / {y}")
                 return;
 
             return x / y;
