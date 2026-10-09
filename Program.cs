@@ -8,15 +8,11 @@
 
         static int Divide(int x, int y)
         {
-            if (y == 0)
-            {
-                Console.WriteLine($"No se puede dividir por 0, el dividiendo es {x} y el divisor es {y}")
-                retrun
-            }
-            else
-            {
-                return x / y
-            }
+            if (y==0)
+                Console.WriteLine("Se esta dividiendo por 0")
+                return;
+
+            return x / y;
         }
 
         static void Main(string[] args)
