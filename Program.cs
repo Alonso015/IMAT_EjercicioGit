@@ -10,11 +10,12 @@
         {
             if (y == 0)
             {
-                print($"No se puede dividir por 0, el dividiendo es {x} y el divisor es {y}")
+                Console.WriteLine($"No se puede dividir por 0, el dividiendo es {x} y el divisor es {y}")
+                retrun
             }
             else
             {
-                x / y
+                return x / y
             }
         }
 
